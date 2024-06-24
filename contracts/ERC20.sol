@@ -28,9 +28,9 @@ contract ERC20Token {
     );
 
     constructor() {
-        tokenName = "Spidy";
-        totalSupplys = 1000000000000000;
-        symbol = "SDTN";
+        tokenName = "ijayd";
+        totalSupplys = 100000000000;
+        symbol = "IJAYD";
         decimals = 18;
         owner = msg.sender;
         balances[msg.sender] += totalSupplys;
